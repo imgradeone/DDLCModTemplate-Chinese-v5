@@ -125,7 +125,7 @@ style monika_text_en:
 
 default poem_last_author = None
 
-# 功能废弃经过
+# 功能废弃警告
 label showpoem(poem, **properties):
     python:
         text = "此功能现已被废弃。请使用" + ("'$ poem_db.show_poem(\"%s\", %s)'" % (poem, ", ".join("%s=%s" % (k, v) for k, v in properties.items())) if properties else "'$ poem_db.show_poem(\"%s\")'" % poem) + "语句。\n查看 {u}poem_responses/py/poems_ren.py{/u} 文件以获取详情。"
