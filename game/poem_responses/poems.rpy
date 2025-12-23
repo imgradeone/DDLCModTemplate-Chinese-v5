@@ -27,7 +27,7 @@ screen poem(poem):
                 vbar value YScrollValue("poem_vp")
         
     if not persistent.first_poem:
-        add "gui/poem_dismiss.png" xpos 1050 ypos 590
+        add "mod_assets/gui/poem_dismiss.png" xpos 1050 ypos 590
     
     key ["repeat_K_UP", "K_UP"] action Scroll("poem_vp", "vertical decrease", 20)
     key ["repeat_K_DOWN", "K_DOWN"] action Scroll("poem_vp", "vertical increase", 20)

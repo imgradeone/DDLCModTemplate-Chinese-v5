@@ -22,16 +22,16 @@
 </p>
 
 ## 目录
-- [📖 Overview](#-overview) 
+- [📖 概览](#-概览) 
 - [📋 Credit Requirements (Important)](#-credit-requirements) 
-- [✨ Features](#-features) 
+- [✨ 功能一览](#-功能一览) 
 - [🚀 Quick Start](#-quick-start) 
 - [📦 Building & Distribution](#-building--distribution)
 - [🎯 Platform-Specific Guides](#-platform-specific-guides)
 - [📚 Additional Resources](#-additional-resources)
 - [👏 Credits](#-credits)
 
-## 📖 Overview
+## 📖 概览
 
 DDLC 中文 Mod 模板 v5 是 Azariel Del Carmen (bronya_rand) 开发的 [DDLC Mod Template (5.0)](https://github.com/Bronya-Rand/DDLCModTemplate2.0) 的中文翻译版本，由 DokiMod 修改、翻译，旨在为 DDLC 中文同人创作者提供现代化、简易化、遵循 [Team Salvato's IP 准则](https://teamsalvato.com/ip-guidelines/) 的中文同人模组开发环境。
 
@@ -50,20 +50,20 @@ DDLC 中文 Mod 模板 v5 是 Azariel Del Carmen (bronya_rand) 开发的 [DDLC M
 
 ---
 
-## ✨ Features
+## ✨ 功能一览
 
-### Core Features
+### 核心功能
 
 - ✅ **顺应 Team Salvato 的准则要求** - Includes required splashscreen (disclaimer) and follows all IP guidelines for fan mods.
 - 🐍 **Python 3 & Ren'Py 8 优化** - Clean, modern code optimized for the latest Ren'Py.
-- 📚 **Original DDLC Scripts Included** - Reference the original game scripts for learning purposes.
-- 🌐 **Cross-Platform Support** - Build for Windows, macOS, Linux, and Android.
+- 📚 **内置原版 DDLC 脚本** - Reference the original game scripts for learning purposes.
+- 🌐 **跨平台支持** - Build for Windows, macOS, Linux, and Android.
 - 🎨 **Automatic GUI Coloring** - Customize GUI and menu button colors without editing assets.
 - 🖼️ **Dynamic Super Resolution (DSR/DSP)** - Universal resolution template supporting custom resolutions.
-- 📝 **Player Name Change** - Allow players to correct or change their name in-game.
+- 📝 **玩家名称修改** - Allow players to correct or change their name in-game.
 - 💬 **Enhanced Console & Poem Responses** - Improved Monika console and cleaner poem response system.
 
-### Gameplay Features
+### 游戏功能
 
 - 🎮 **无屏蔽模式** - Option to show more sensitive content.
 - 📹 **实况主模式** - Protect personal information while streaming/recording.
@@ -74,7 +74,7 @@ DDLC 中文 Mod 模板 v5 是 Azariel Del Carmen (bronya_rand) 开发的 [DDLC M
 Classic DDLC features restored and improved:
 - 👻 **Ghost Menu** - Dan's spooky easter egg.
 - 💔 **Character Kill Scripts** - Sayori and Monika deletion scripts.
-- 📄 **Special Poems** - Act 2 random poems _(now improved!)_.
+- 📄 **特殊诗篇** - Act 2 random poems _(now improved!)_.
 
 ### Optional Extras
 
@@ -85,6 +85,11 @@ Classic DDLC features restored and improved:
 - 🖼️ **Gallery System** - Showcase your artwork and CGs.
 - 🏆 **Achievements Menu** - Reward players for completing milestones.
 - 🎮 **[BETA] Discord Rich Presence** - Show mod activity on Discord.
+
+### DDLC 中文 Mod 模板特色功能
+
+- **精选中文字体** - 精选免费商用字体，免除版权担忧同时尽力还原原版游戏气氛
+- **原版游戏脚本汉化**（重做中，详见 [PR #3](https://github.com/DokiMod/DDLCModTemplate-Chinese-v5/pull/3)）
 
 ---
 
@@ -221,6 +226,12 @@ Thanks to the following people for their contributions to the DDLC Mod Template:
 - Tulkas (Android Gestures)
 - FiT (Weiss Chibi Branding Icon Design)
 - Retronika (Supplemental code for the Gallery system)
+
+此外，DDLC 中文 Mod 模板还要额外感谢：
+
+- 所有中文字体作者（详见 [font-attributions.txt](font-attributions.txt)）
+- 社区汉化补丁团队（同时也是 DDLC Plus 饭制翻译支持者）：DB、Javelin&Tea、TBGN、Pizza Hime
+- [Riotloc 团队](https://www.riotloc.com)（DDLC Plus 官方翻译团队）
 
 ---
 

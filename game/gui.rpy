@@ -7,7 +7,7 @@
 ## on line 379
 
 init -2 python:
-    # This sets the resolution of DDLC to 1280x720p
+    # 设置 DDLC 分辨率为 1280x720；请不要随意更改此项，除非你知道自己在做什么
     gui.init(1280, 720)
 
 ## 界面音效
@@ -50,10 +50,10 @@ define -2 gui.interface_text_color = '#ffffff'
 # 字体与字体大小
 # These variables set the font and its' size for DDLC's text in-game.
 
-# This font is used for in-game text.
+# 游戏（对话框、剧情选项菜单）内文本字体。
 define -2 gui.default_font = "mod_assets/font/sarasagothic.ttf"
 
-# This font is used for character names.
+# 角色名称显示字体。
 define -2 gui.name_font = "mod_assets/font/zcoolkuaile.ttf"
 
 # This font is used for out-of-game text.
